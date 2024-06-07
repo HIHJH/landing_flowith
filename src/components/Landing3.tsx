@@ -66,14 +66,14 @@ const Landing3 = () => {
         <IconContainer initial="offscreen" whileInView="icon2" variants={Variants}>
           {' '}
           <Icon src={Icon2} />
-          <Text>균형있는</Text>
-          <MiniText>팀과 개인의 균형있는 분리</MiniText>
+          <Text>효율적</Text>
+          <MiniText>효율적인 할일 관리</MiniText>
         </IconContainer>
         <IconContainer initial="offscreen" whileInView="icon3" variants={Variants}>
           {' '}
           <Icon src={Icon3} />
-          <Text>{`균형있는`}</Text>
-          <MiniText>{`팀과 개인의 균형있는 분리`}</MiniText>
+          <Text>데이터 기반</Text>
+          <MiniText>데이터 기반의 자동화된 관리</MiniText>
         </IconContainer>
       </Icons>
     </Container>
